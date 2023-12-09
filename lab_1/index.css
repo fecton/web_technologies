@@ -1,0 +1,49 @@
+* {
+    text-align:center;
+}
+
+
+#links * {
+    color: red;
+}
+
+
+h1 {
+    color: lightskyblue;
+    text-decoration: underline;
+}
+
+#body {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    border: 5px solid gray;
+    margin-bottom: 3%;
+    align-items: center;
+
+    font-style: italic;
+}
+
+img {
+    height: auto;
+    width: 30%;
+    display: block;
+    padding: 20px;
+}
+
+
+form > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer {
+    text-decoration: underline;
+    color: gray;
+}
