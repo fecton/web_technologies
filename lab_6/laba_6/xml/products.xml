@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Products [
+    <!ELEMENT Products (Product+)>
+    <!ELEMENT Product (ProductName, ProductGroup, Price, SerialNumber, Year, Pictures, Parameters+)>
+    <!ELEMENT ProductName (#PCDATA)>
+    <!ELEMENT ProductGroup (#PCDATA)>
+    <!ELEMENT Price (#PCDATA)>
+    <!ELEMENT SerialNumber (#PCDATA)>
+    <!ELEMENT Year (#PCDATA)>
+    <!ELEMENT Pictures (Picture+)>
+    <!ELEMENT Picture (#PCDATA)>
+    <!ELEMENT Parameters (Parameter+)>
+    <!ELEMENT Parameter (ParamName, ParamValue)>
+    <!ELEMENT ParamName (#PCDATA)>
+    <!ELEMENT ParamValue (#PCDATA)>
+]>
+<Products>
+    <Product>
+        <ProductName>iPhone 5</ProductName>
+        <ProductGroup>Phones</ProductGroup>
+        <Price>199.99</Price>
+        <SerialNumber>123456</SerialNumber>
+        <Year>2012</Year>
+        <Pictures>
+            <Picture>img/iphone5_front.png</Picture>
+            <Picture>img/iphone5_back.png</Picture>
+        </Pictures>
+        <Parameters>
+            <Parameter>
+                <ParamName>Screen Size</ParamName>
+                <ParamValue>4 inches</ParamValue>
+            </Parameter>
+            <Parameter>
+                <ParamName>Storage</ParamName>
+                <ParamValue>16 GB</ParamValue>
+            </Parameter>
+        </Parameters>
+    </Product>
+
+    <Product>
+        <ProductName>iPhone 5s</ProductName>
+        <ProductGroup>Phones</ProductGroup>
+        <Price>249.99</Price>
+        <SerialNumber>234567</SerialNumber>
+        <Year>2013</Year>
+        <Pictures>
+            <Picture>img/iphone5s_front.png</Picture>
+            <Picture>img/iphone5s_back.png</Picture>
+        </Pictures>
+        <Parameters>
+            <Parameter>
+                <ParamName>Screen Size</ParamName>
+                <ParamValue>4 inches</ParamValue>
+            </Parameter>
+            <Parameter>
+                <ParamName>Storage</ParamName>
+                <ParamValue>32 GB</ParamValue>
+            </Parameter>
+        </Parameters>
+    </Product>
+
+    <Product>
+        <ProductName>iPhone 6</ProductName>
+        <ProductGroup>Phones</ProductGroup>
+        <Price>299.99</Price>
+        <SerialNumber>345678</SerialNumber>
+        <Year>2014</Year>
+        <Pictures>
+            <Picture>img/iphone6_front.png</Picture>
+            <Picture>img/iphone6_back.png</Picture>
+        </Pictures>
+        <Parameters>
+            <Parameter>
+                <ParamName>Screen Size</ParamName>
+                <ParamValue>4.7 inches</ParamValue>
+            </Parameter>
+            <Parameter>
+                <ParamName>Storage</ParamName>
+                <ParamValue>64 GB</ParamValue>
+            </Parameter>
+        </Parameters>
+    </Product>
+
+    <Product>
+        <ProductName>iPhone 7</ProductName>
+        <ProductGroup>Phones</ProductGroup>
+        <Price>399.99</Price>
+        <SerialNumber>456789</SerialNumber>
+        <Year>2016</Year>
+        <Pictures>
+            <Picture>img/iphone7_front.png</Picture>
+            <Picture>img/iphone7_back.png</Picture>
+        </Pictures>
+        <Parameters>
+            <Parameter>
+                <ParamName>Screen Size</ParamName>
+                <ParamValue>4.7 inches</ParamValue>
+            </Parameter>
+            <Parameter>
+                <ParamName>Storage</ParamName>
+                <ParamValue>128 GB</ParamValue>
+            </Parameter>
+        </Parameters>
+    </Product>
+
+    <Product>
+        <ProductName>iPhone 8</ProductName>
+        <ProductGroup>Phones</ProductGroup>
+        <Price>599.99</Price>
+        <SerialNumber>123456</SerialNumber>
+        <Year>2017</Year>
+        <Pictures>
+            <Picture>img/iphone8_front.png</Picture>
+            <Picture>img/iphone8_back.png</Picture>
+        </Pictures>
+        <Parameters>
+            <Parameter>
+                <ParamName>Screen Size</ParamName>
+                <ParamValue>4.7 inches</ParamValue>
+            </Parameter>
+            <Parameter>
+                <ParamName>Storage</ParamName>
+                <ParamValue>64 GB</ParamValue>
+            </Parameter>
+        </Parameters>
+    </Product>
+
+    <Product>
+        <ProductName>iPhone 8 Plus</ProductName>
+        <ProductGroup>Phones</ProductGroup>
+        <Price>699.99</Price>
+        <SerialNumber>987654</SerialNumber>
+        <Year>2017</Year>
+        <Pictures>
+            <Picture>img/iphone8plus_front.png</Picture>
+            <Picture>img/iphone8plus_back.png</Picture>
+        </Pictures>
+        <Parameters>
+            <Parameter>
+                <ParamName>Screen Size</ParamName>
+                <ParamValue>5.5 inches</ParamValue>
+            </Parameter>
+            <Parameter>
+                <ParamName>Storage</ParamName>
+                <ParamValue>128 GB</ParamValue>
+            </Parameter>
+        </Parameters>
+    </Product>
+
+    <Product>
+        <ProductName>iPhone X</ProductName>
+        <ProductGroup>Phones</ProductGroup>
+        <Price>799.99</Price>
+        <SerialNumber>654321</SerialNumber>
+        <Year>2017</Year>
+        <Pictures>
+            <Picture>img/iphonex_front.png</Picture>
+            <Picture>img/iphonex_back.png</Picture>
+        </Pictures>
+        <Parameters>
+            <Parameter>
+                <ParamName>Screen Size</ParamName>
+                <ParamValue>5.8 inches</ParamValue>
+            </Parameter>
+            <Parameter>
+                <ParamName>Storage</ParamName>
+                <ParamValue>256 GB</ParamValue>
+            </Parameter>
+        </Parameters>
+    </Product>
+
+    <Product>
+        <ProductName>iPhone XR</ProductName>
+        <ProductGroup>Phones</ProductGroup>
+        <Price>699.99</Price>
+        <SerialNumber>789012</SerialNumber>
+        <Year>2018</Year>
+        <Pictures>
+            <Picture>img/iphonexr_front.png</Picture>
+            <Picture>img/iphonexr_back.png</Picture>
+        </Pictures>
+        <Parameters>
+            <Parameter>
+                <ParamName>Screen Size</ParamName>
+                <ParamValue>6.1 inches</ParamValue>
+            </Parameter>
+            <Parameter>
+                <ParamName>Storage</ParamName>
+                <ParamValue>64 GB</ParamValue>
+            </Parameter>
+        </Parameters>
+    </Product>
+
+    <Product>
+        <ProductName>iPhone XS</ProductName>
+        <ProductGroup>Phones</ProductGroup>
+        <Price>899.99</Price>
+        <SerialNumber>345678</SerialNumber>
+        <Year>2018</Year>
+        <Pictures>
+            <Picture>img/iphonexs_front.png</Picture>
+            <Picture>img/iphonexs_back.png</Picture>
+        </Pictures>
+        <Parameters>
+            <Parameter>
+                <ParamName>Screen Size</ParamName>
+                <ParamValue>5.8 inches</ParamValue>
+            </Parameter>
+            <Parameter>
+                <ParamName>Storage</ParamName>
+                <ParamValue>512 GB</ParamValue>
+            </Parameter>
+        </Parameters>
+    </Product>
+
+    <Product>
+        <ProductName>iPhone XS Max</ProductName>
+        <ProductGroup>Phones</ProductGroup>
+        <Price>999.99</Price>
+        <SerialNumber>567890</SerialNumber>
+        <Year>2018</Year>
+        <Pictures>
+            <Picture>img/iphonexsmax_front.png</Picture>
+            <Picture>img/iphonexsmax_back.png</Picture>
+        </Pictures>
+        <Parameters>
+            <Parameter>
+                <ParamName>Screen Size</ParamName>
+                <ParamValue>6.5 inches</ParamValue>
+            </Parameter>
+            <Parameter>
+                <ParamName>Storage</ParamName>
+                <ParamValue>256 GB</ParamValue>
+            </Parameter>
+        </Parameters>
+    </Product>
+
+</Products>
