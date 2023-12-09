@@ -1,0 +1,179 @@
+/* -------------------------------- */
+/* TAGs */
+/* -------------------------------- */
+
+body {
+    background-color: black;
+    height: 100%;
+}
+
+/* -------------------------------- */
+/* IDs */
+/* -------------------------------- */
+
+#case {
+    width: 780px;
+    margin: 0 auto;
+    height: 700px;
+    position: relative;
+}
+
+#head {
+    text-align: center;
+    position: relative;
+}
+
+#content {
+    text-align: center;
+    letter-spacing: 2pt;
+}
+
+#log {
+    padding-top: 10px;
+}
+
+#logo {
+    position: relative;
+}
+
+#menu {
+    font-family: "DS CenturyCapitals";
+    font-size: 14pt;
+    color: #f6ff00;
+    position: relative;
+    top: 4px;
+    left: 30px;
+}
+
+#games {
+    font-family: "DS CenturyCapitals";
+    font-size: 14pt;
+    color: #f6ff00;
+    position: relative;
+    bottom: 12px;
+    left: 4px;
+}
+
+#welcome {
+    color: #ea2309;
+    font-family: "Arial Black";
+}
+
+#words {
+    color: #e2f009;
+    font-family: Verdana;
+    font-size: 8pt;
+}
+
+/* -------------------------------- */
+/* CLASSes */
+/* -------------------------------- */
+
+.col {
+    color: #e2f009;
+    font-family: Verdana;
+    padding-left: 25px;
+}
+
+.row {
+    margin-bottom: 10px;
+    font-size: 10pt;
+    width: 400px;
+}
+
+.preferencesDiv {
+    font-size: 10pt;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.error {
+    font-size: 8pt;
+}
+
+
+.back {
+    padding-top: 5px;
+}
+
+.center-menu {
+    width: 458px;
+    float: left;
+    background: url(.../img/backgrounds/main.jpg);
+    background-color: #2c821f;
+    text-align: center;
+    position: relative;
+    left: 3px;
+}
+
+.loop {
+    line-height: 1px;
+}
+
+.menu-block {
+    width: 160px;
+    position: relative;
+    float: left;
+    bottom: 19px;
+    left: 4px;
+}
+
+.right-menu {
+    float: right;
+    width: 158px;
+    height: 199px;
+    background: url(../img/backgrounds/rightblock.png) no-repeat 0 0;
+    position: relative;
+    right: 7px;
+}
+
+.left-menu {
+    background: url(../img/backgrounds/leftblock.jpg) no-repeat 0 0;
+    text-align: left;
+    padding-left: 20px;
+    height: 228px;
+}
+
+.left-banners {
+    float: left;
+    margin-top: 50px;
+}
+
+.main-foot {
+    background: url(../img/backgrounds/footer.jpg) no-repeat 0 0;
+    background-color: #2c821f;
+    width: 458px;
+    height: 29px;
+}
+
+.left-names a {
+    display: block;
+    margin: 2px 0 0 0;
+}
+
+.left-names>a {
+    font-family: "Lucida Console";
+    font-size: 11pt;
+    color: #f6ff00;
+    text-decoration: none;
+    position: relative;
+    bottom: 5px;
+    left: 12px;
+}
+
+.right-names a {
+    display: block;
+    margin: 12px 0 0 0;
+}
+
+.right-names>a {
+    font-family: "Aardvark Bold";
+    font-size: 10pt;
+    font-weight: bolder;
+    padding-bottom: 3px;
+    color: #e9f200;
+    text-decoration: none;
+    position: relative;
+    bottom: 18px;
+    left: 5px;
+}
